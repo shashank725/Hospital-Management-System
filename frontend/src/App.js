@@ -7,7 +7,8 @@ import { Route, Switch } from "react-router-dom";
 
 // Pages
 import Four04 from "./pages/404/404";
-import Home from "./pages/home/home";
+import Home from "./pages/home/home"; 
+import Footer from "./components/footer/footer";
 
 // Components
 import Navigation from "./components/navigation/navigation";
@@ -22,6 +23,7 @@ function App() {
           <Route path="/" component={Home} exact />
         </Switch>
       </Suspense>
+      <Footer/>
     </Fragment>
   );
 }

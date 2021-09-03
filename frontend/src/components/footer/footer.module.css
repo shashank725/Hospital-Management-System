@@ -1,0 +1,121 @@
+/* CONTACT */
+
+.contactSection {
+  margin: 4rem 3rem;
+  padding: 3rem 4rem;
+  background-image: linear-gradient(
+      to right,
+      rgba(41, 48, 57, 0.59),
+      rgba(41, 48, 57, 0.59)
+    ),
+    url("https://images.pexels.com/photos/208512/pexels-photo-208512.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  align-items: center;
+}
+.primaryContactSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: var(--color-white);
+}
+.primaryContactSection > h2 {
+  font-size: 2.7rem;
+  letter-spacing: 0.2rem;
+  font-weight: 800;
+  line-height: 2;
+}
+.primaryContactSection > p {
+  font-size: 1.4rem;
+  letter-spacing: 0.15rem;
+}
+
+/* FOOTER */
+.footer {
+  background-color: var(--color-white);
+  padding: 5.5rem 4rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.footer > div {
+  padding: 3rem 2rem;
+}
+
+.footer > div > h3 {
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+.footerPrimary > p {
+  font-size: 1.4rem;
+  margin-top: 3rem;
+}
+.footerContactData {
+  margin-top: 3rem;
+}
+.footerContactData > div {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 2rem;
+  align-items: center;
+}
+.footerContactData > div:not(:last-child) {
+  margin-bottom: 2rem;
+}
+.footerContactData > div > p {
+  font-size: 1.6rem;
+}
+.footerIcon {
+  height: 4.5rem;
+  width: 4.5rem;
+  padding: 1.2rem;
+  background-color: var(--color-primary);
+  fill: var(--color-white);
+  border-radius: 50%;
+}
+.footerForm {
+  margin-top: 3rem;
+}
+
+.footerFormInput {
+  padding: 1.5rem 2rem;
+  width: 100%;
+  outline: none;
+  margin-bottom: 1.3rem;
+  border: 1px solid var(--color-primary);
+}
+.footerFormInput::placeholder {
+  font-family: "Poppins", sans-serif;
+  color: var(--color-primary);
+}
+.submitButton {
+  font-weight: 500;
+  letter-spacing: 0.15rem;
+  font-size: 1.2rem;
+}
+/* COPYRIGHT */
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  align-items: center;
+  font-size: 1.3rem;
+}
+.copyText > a {
+  color: var(--color-secondary);
+}
+
+.copyIcon {
+  height: 3rem;
+  width: 3rem;
+  background-color: var(--color-primary);
+  fill: var(--color-white);
+  padding: 0.8rem;
+  border-radius: 50%;
+}
+.copySocials {
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+}
