@@ -1,0 +1,76 @@
+/* Navigation Bar */
+
+/* PRIMARY */
+.primary {
+  background-color: var(--color-primary);
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  align-items: center;
+  font-size: 1.1rem;
+  letter-spacing: 0.1rem;
+  color: var(--color-white);
+}
+.primaryContact {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.contactDetail {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.primaryIcon {
+  height: 2.5rem;
+  width: 2.5rem;
+  fill: var(--color-white);
+  background-color: var(--color-secondary);
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+.primarySocials {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.socialData {
+  display: flex;
+  gap: 1rem;
+}
+
+/* SECONDARY */
+.secondary {
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navigationLogo {
+  width: 20rem;
+}
+.navContainer {
+  margin-right: 3rem;
+}
+.navItems {
+  display: flex;
+  gap: 2.6rem;
+  list-style: none;
+  font-size: 1.5rem;
+  user-select: none;
+}
+.navItem > a {
+  color: var(--color-black);
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 0.4s;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid transparent;
+  border-radius: 12%;
+}
+.navItem > a:hover {
+  color: var(--color-secondary);
+  border-bottom: 2px solid var(--color-primary);
+}
