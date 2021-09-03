@@ -5,7 +5,7 @@ import { ImLab } from "react-icons/im";
 import { BiTestTube, BiPlusMedical } from "react-icons/bi";
 import { GrTest } from "react-icons/gr";
 import { GiHypodermicTest } from "react-icons/gi";
-
+import { Link } from "react-router-dom";
 // Css
 import classes from "./home.module.css";
 
@@ -212,15 +212,15 @@ const Home = () => {
 
         <div className={classes.blogDatas}>
           <div className={classes.blogItem}>
-            <a>
+            <Link href="/">
               <img
                 className={classes.blogImg}
                 src="https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
                 alt=""
               />
-            </a>
+            </Link>
             <h3 className={classes.blogHead}>
-              <a>Chemistry Opens New Doors</a>
+              <Link href="/">Chemistry Opens New Doors</Link>
             </h3>
             <p className={classes.blogText}>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -232,15 +232,15 @@ const Home = () => {
             <p className={classes.blogDate}>06 February, 2018</p>
           </div>
           <div className={classes.blogItem}>
-            <a>
+            <Link href="/">
               <img
                 className={classes.blogImg}
                 src="https://images.pexels.com/photos/4226264/pexels-photo-4226264.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
                 alt=""
               />
-            </a>
+            </Link>
             <h3 className={classes.blogHead}>
-              <a>This is your Brain Outdoors</a>
+              <Link href="/">This is your Brain Outdoors</Link>
             </h3>
             <p className={classes.blogText}>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -252,15 +252,15 @@ const Home = () => {
             <p className={classes.blogDate}>06 February, 2018</p>
           </div>
           <div className={classes.blogItem}>
-            <a>
+            <Link href="/">
               <img
                 className={classes.blogImg}
                 src="https://images.pexels.com/photos/4033307/pexels-photo-4033307.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
                 alt=""
               />
-            </a>
+            </Link>
             <h3 className={classes.blogHead}>
-              <a>Molecular Secrets Revealed</a>
+              <Link href="/">Molecular Secrets Revealed</Link>
             </h3>
             <p className={classes.blogText}>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
