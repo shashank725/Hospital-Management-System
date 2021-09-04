@@ -1,0 +1,52 @@
+.headerImg {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 148, 144, 0.6),
+      rgba(0, 148, 144, 0.6)
+    ),
+    url("https://images.pexels.com/photos/127873/pexels-photo-127873.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+
+/* Login Form
+*/
+.loginForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+}
+.loginFormComp {
+  width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.loginFormComp > h2 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  margin-bottom: 2rem;
+}
+.loginFormComp > p {
+  font-size: 1.4rem;
+  width: 80%;
+  margin-bottom: 3rem;
+  width: 70%;
+}
+.loginButton {
+  font-size: 1.3rem;
+  font-weight: 600;
+  letter-spacing: 0.15rem;
+}
+.loginInput:not(:last-child) {
+  margin-bottom: 2rem;
+}
+.loginInput {
+  padding: 1.5rem 2rem;
+  width: 80%;
+  outline: none;
+  margin-bottom: 1.3rem;
+  border: 1px solid var(--color-primary);
+}

@@ -9,7 +9,10 @@ import { Route, Switch } from "react-router-dom";
 import Four04 from "./pages/404/404";
 import Home from "./pages/home/home";
 import About from "./pages/about/About";
+import Contact from "./pages/contact/Contact";
 import Service from "./pages/services/Service";
+import Account from "./pages/account/Account";
+
 // Components
 import Navigation from "./components/navigation/navigation";
 import Footer from "./components/footer/footer";
@@ -24,6 +27,8 @@ function App() {
           <Route path="/" component={Home} exact />
           <Route path="/about" component={About} exact />
           <Route path="/services" component={Service} exact />
+          <Route path="/account" component={Account} exact />
+          <Route path="/contact" component={Contact} exact />
         </Switch>
       </Suspense>
       <Footer />

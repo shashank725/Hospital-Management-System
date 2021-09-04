@@ -3,12 +3,7 @@
 .contactSection {
   margin: 4rem 3rem;
   padding: 3rem 4rem;
-  background-image: linear-gradient(
-      to right,
-      rgba(41, 48, 57, 0.59),
-      rgba(41, 48, 57, 0.59)
-    ),
-    url("https://images.pexels.com/photos/208512/pexels-photo-208512.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-color: var(--color-primary);
   background-size: cover;
   display: grid;
   grid-template-columns: 1fr max-content;

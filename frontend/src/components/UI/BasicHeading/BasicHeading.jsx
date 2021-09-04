@@ -11,7 +11,7 @@ const BasicHeading = (props) => {
   const isFeatures = props.isFeatures;
   const heading = (
     <Fragment>
-      <h2>Our Standing features</h2>
+      <h2>{props.header || "Our Standing Features"}</h2>
       <p className={classes.featuresText}>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi totam
         velit earum fuga nobis perferendis. Eum, quos sint provident iste esse

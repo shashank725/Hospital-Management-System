@@ -168,13 +168,7 @@ const Home = () => {
         </div>
       </section>
       <section className={classes.blogs}>
-        <h2>Latest Medical News</h2>
-        <p className={classes.blogsText}>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi totam
-          velit earum fuga nobis perferendis. Eum, quos sint provident iste esse
-          placeat praesentium dignissimos delectus non sed cumque quo fugit.
-        </p>
-
+      <BasicHeading header="Latest Medical News" isHeading={true}/>
         <div className={classes.blogDatas}>
           <div className={classes.blogItem}>
             <Link href="/">
