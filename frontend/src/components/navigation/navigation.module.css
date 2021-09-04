@@ -70,7 +70,14 @@
   border-bottom: 2px solid transparent;
   border-radius: 12%;
 }
-.navItem > a:hover {
+.navItem > a:hover,
+.navItem > a:hover{
   color: var(--color-secondary);
   border-bottom: 2px solid var(--color-primary);
 }
+
+.active {
+  color: var(--color-secondary) !important;
+  border-bottom: 2px solid var(--color-primary) !important;
+}
+

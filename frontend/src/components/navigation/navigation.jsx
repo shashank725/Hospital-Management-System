@@ -5,7 +5,7 @@ import classes from "./navigation.module.css";
 import logo from "../../Assets/Logo Light Crop Short.png";
 
 // Components
-import { Link } from "react-router-dom";
+import { NavLink , Link} from "react-router-dom";
 import {
   FaPhoneAlt,
   FaRegClock,
@@ -19,12 +19,11 @@ import { FiMail } from "react-icons/fi";
 const Navigation = () => {
   // NavItems
   const navItems = [
-    { link: "/", item: "Home" },
-    { link: "/about", item: "About" },
+    { link: "/about", item: "About"},
     { link: "/services", item: "Services" },
     { link: "/account", item: "Account" },
-    { link: "/contact", item: "Contact" },
-    { link: "/admin", item: "Admin" },
+    { link: "/contact", item: "Contact"},
+    { link: "/admin", item: "Admin"},
   ];
   return (
     <nav className={classes.navigation}>
@@ -89,10 +88,14 @@ const Navigation = () => {
         </div>
         <div className={classes.navContainer}>
           <ul className={classes.navItems}>
-            {navItems.map((element) => {
+            {navItems.map((element, index) => {
               return (
-                <li className={classes.navItem}>
-                  <Link to={element.link}>{element.item}</Link>
+                <li key={index} className={`${classes.navItem}`}>
+                  <NavLink activeClassName={classes.active}
+                    to={element.link}
+                  >
+                    {element.item}
+                  </NavLink>
                 </li>
               );
             })}

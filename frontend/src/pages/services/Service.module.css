@@ -1,0 +1,51 @@
+.detailsGrid {
+  margin-top: 3rem;
+  display: grid;
+  padding: 3rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+.headerImg {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 148, 144, 0.6),
+      rgba(0, 148, 144, 0.6)
+    ),
+    url("https://images.pexels.com/photos/127873/pexels-photo-127873.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+/* .detailsGrid > div {
+    padding: 1rem;
+  } */
+.detailsGridImg {
+  width: 100%;
+}
+
+.featureConData {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 2rem;
+  align-items: center;
+}
+.featureConData:not(:last-child) {
+  margin-bottom: 2.5rem;
+}
+.featureConData > svg {
+  height: 5.5rem;
+  width: 5.5rem;
+  padding: 1.4rem;
+  border-radius: 50%;
+  background-color: var(--color-secondary);
+  fill: var(--color-white);
+}
+.featureHead > h3 {
+  color: var(--color-primary);
+  font-size: 1.6rem;
+}
+.featureHead > p {
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  width: 90%;
+}
+.featureSecondary {
+  align-self: center;
+  padding: 2rem;
+}

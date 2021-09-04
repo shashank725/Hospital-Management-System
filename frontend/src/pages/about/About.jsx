@@ -1,12 +1,10 @@
 import React, { Fragment } from "react";
 import classes from "./About.module.css";
-
+import Header from "../../components/UI/Header/Header";
 const About = () => {
   return (
     <Fragment>
-      <div className={classes.header}>
-        <h1>About Our Hospital</h1>
-      </div>
+      <Header header="About Our Hospital" img={classes.headerImg} />
       <div className={classes.aboutContent}>
         <div className={classes.aboutDiv}>
           <img
