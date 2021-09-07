@@ -1,0 +1,4 @@
+--color-black: #171717; (BLACK)
+--color-primary: #293039; (BLUE)
+--color-secondary: #009490; (GREEN)
+--color-white: #F4F4F4; (WHITE)
